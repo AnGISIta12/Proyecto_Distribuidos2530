@@ -1,19 +1,19 @@
 package com.example.proyecto_distribuidos2530.actores;
 
 public class Libro {
-    private String code;
-    private String title;
-    private int copiesAvailable;
+    private String codigo;
+    private String titulo;
+    private int copiasDisponibles;
 
 
     public Libro(String code, String title, int copiesAvailable) {
-        this.code = code;
-        this.title = title;
-        this.copiesAvailable = copiesAvailable;
+        this.codigo = code;
+        this.titulo = title;
+        this.copiasDisponibles = copiesAvailable;
     }
 
-    public String getCode() { return code; }
-    public String getTitle() { return title; }
-    public int getCopiesAvailable() { return copiesAvailable; }
-    public void setCopiesAvailable(int v) { this.copiesAvailable = v; }
+    public String getCode() { return codigo; }
+    public String getTitle() { return titulo; }
+    public int getCopiesAvailable() { return copiasDisponibles; }
+    public void setCopiesAvailable(int v) { this.copiasDisponibles = v; }
 }
