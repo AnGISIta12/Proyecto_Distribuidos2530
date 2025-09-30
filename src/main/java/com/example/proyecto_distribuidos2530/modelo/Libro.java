@@ -1,4 +1,4 @@
-package com.example.proyecto_distribuidos2530.actores;
+package com.example.proyecto_distribuidos2530.modelo;
 
 public class Libro {
     private String codigo;
