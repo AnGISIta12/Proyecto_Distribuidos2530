@@ -1,6 +1,7 @@
 package com.example.proyecto_distribuidos2530.actores;
-//Actor 1 que gestiona las devoluciones de los libros
-import org.zeromq.ZMQ; // Importamos la libreria de ZeroMQ que toca usar para el proyecto
+
+import org.zeromq.ZMQ;
+
 public class ActorDevolucion {
     public static void main(String[] args) {
         ZMQ.Context context = ZMQ.context(1);
@@ -11,9 +12,20 @@ public class ActorDevolucion {
         System.out.println("ActorDevolucion escuchando...");
 
         while (!Thread.currentThread().isInterrupted()) {
-            String topic = subscriber.recvStr();
-            String msg = subscriber.recvStr();
-            System.out.println("ActorDevolucion → " + msg);
+            try {
+                String topic = subscriber.recvStr();
+                String msg = subscriber.recvStr();
+
+                if (msg == null) {
+                    System.err.println("ActorDevolucion → mensaje vacío, ignorando...");
+                    continue;
+                }
+
+                System.out.println("ActorDevolucion procesó: " + msg);
+
+            } catch (Exception e) {
+                System.err.println("Error en ActorDevolucion: " + e.getMessage());
+            }
         }
 
         subscriber.close();

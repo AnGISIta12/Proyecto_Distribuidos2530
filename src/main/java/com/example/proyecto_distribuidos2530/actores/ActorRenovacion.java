@@ -1,6 +1,7 @@
 package com.example.proyecto_distribuidos2530.actores;
-//Actor 3 que gestiona las renovaciones de los libros
-import org.zeromq.ZMQ; // Importamos la libreria de ZeroMQ que toca usar para el proyecto
+
+import org.zeromq.ZMQ;
+
 public class ActorRenovacion {
     public static void main(String[] args) {
         ZMQ.Context context = ZMQ.context(1);
@@ -11,9 +12,20 @@ public class ActorRenovacion {
         System.out.println("ActorRenovacion escuchando...");
 
         while (!Thread.currentThread().isInterrupted()) {
-            String topic = subscriber.recvStr();
-            String msg = subscriber.recvStr();
-            System.out.println("ActorRenovacion → " + msg);
+            try {
+                String topic = subscriber.recvStr();
+                String msg = subscriber.recvStr();
+
+                if (msg == null) {
+                    System.err.println("ActorRenovacion → mensaje vacío, ignorando...");
+                    continue;
+                }
+
+                System.out.println("ActorRenovacion procesó: " + msg);
+
+            } catch (Exception e) {
+                System.err.println("Error en ActorRenovacion: " + e.getMessage());
+            }
         }
 
         subscriber.close();
