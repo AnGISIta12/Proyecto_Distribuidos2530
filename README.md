@@ -234,7 +234,7 @@ Campos:
 - **Integrante 2**: Samuel Osorio
 - **Integrante 3**: Alejandro Castelblanco
 - **Integrante 4**: Andrés Raba
-- **Integrante 4**: Angy Bautista
+- **Integrante 5**: Angy Bautista
 
 ---
 
