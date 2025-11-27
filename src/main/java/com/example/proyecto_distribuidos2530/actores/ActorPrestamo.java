@@ -20,8 +20,6 @@ public class ActorPrestamo {
             String msg = puller.recvStr();
             System.out.println("ActorPrestamo recibió: " + msg);
 
-            // CORREGIDO: Extraer código del libro del mensaje
-            // El mensaje viene como: "Libro B0001 solicitado por U100"
             String[] partesMsg = msg.split(" ");
             if (partesMsg.length >= 2) {
                 String codigoLibro = partesMsg[1]; // "B0001"

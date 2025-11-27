@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="126457da-fff6-4a58-bb04-bbfa564e7840" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorPrestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorPrestamo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/almacenamiento/GestorAlmcto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/almacenamiento/GestorAlmcto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/basedatos/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/basedatos/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/modelo/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/modelo/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorDevolucion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorDevolucion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorRenovacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/actores/ActorRenovacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/carga/GestorCarga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/carga/GestorCarga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/solicitante/ProcesoSolicitante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto_distribuidos2530/solicitante/ProcesoSolicitante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,19 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActorPrestamo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.proyecto_distribuidos2530.actores.ActorPrestamo" />
-      <module name="proyecto_distribuidos2530" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.proyecto_distribuidos2530.actores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ActorRenovacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.proyecto_distribuidos2530.actores.ActorRenovacion" />
       <module name="proyecto_distribuidos2530" />
@@ -109,6 +95,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.proyecto_distribuidos2530.almacenamiento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestorCarga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proyecto_distribuidos2530.carga.GestorCarga" />
+      <module name="proyecto_distribuidos2530" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.proyecto_distribuidos2530.carga.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProcesoSolicitante" />
+        <item itemvalue="Application.GestorCarga" />
+        <item itemvalue="Application.ActorDevolucion" />
         <item itemvalue="Application.GestorAlmcto" />
         <item itemvalue="Application.ActorRenovacion" />
-        <item itemvalue="Application.ActorPrestamo" />
-        <item itemvalue="Application.ActorDevolucion" />
       </list>
     </recent_temporary>
   </component>
