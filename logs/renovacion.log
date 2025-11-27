@@ -1,0 +1,48 @@
+==============================================
+ActorRenovacion SEDE SEDE1 iniciado
+Suscrito al tópico: renovacion
+GC: localhost:5556
+GA: localhost:5558
+==============================================
+
+
+[16:14:59.578] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: B0003|U102|2025-11-27T16:14:59.545260400|2025-12-04T16:14:59.545260400
+  ? Procesando renovación de B0003 por usuario U102
+  ? Nueva fecha de entrega: 2025-12-04T16:14:59.545260400
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 1
+
+[16:15:00.414] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: B0007|U106|2025-11-27T16:15:00.412547900|2025-12-04T16:15:00.412547900
+  ? Procesando renovación de B0007 por usuario U106
+  ? Nueva fecha de entrega: 2025-12-04T16:15:00.412547900
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 2
+
+[16:15:01.301] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: B0001|U110|2025-11-27T16:15:01.299289300|2025-12-04T16:15:01.299289300
+  ? Procesando renovación de B0001 por usuario U110
+  ? Nueva fecha de entrega: 2025-12-04T16:15:01.299289300
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 3
+
+[16:15:02.180] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: B0005|U114|2025-11-27T16:15:02.177711100|2025-12-04T16:15:02.177711100
+  ? Procesando renovación de B0005 por usuario U114
+  ? Nueva fecha de entrega: 2025-12-04T16:15:02.177711100
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 4
+
+[16:15:03.038] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: B0009|U118|2025-11-27T16:15:03.036872200|2025-12-04T16:15:03.036872200
+  ? Procesando renovación de B0009 por usuario U118
+  ? Nueva fecha de entrega: 2025-12-04T16:15:03.036872200
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 5
+^C

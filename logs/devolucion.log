@@ -1,0 +1,43 @@
+==============================================
+ActorDevolucion SEDE SEDE1 iniciado
+Suscrito al tópico: devolucion
+GC: localhost:5556
+GA: localhost:5558
+==============================================
+
+
+[16:14:59.778] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: B0004|U103|16:14:59.759
+  ? Procesando devolución de B0004 por usuario U103
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 1
+
+[16:15:00.633] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: B0008|U107|16:15:00.632
+  ? Procesando devolución de B0008 por usuario U107
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 2
+
+[16:15:01.517] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: B0002|U111|16:15:01.516
+  ? Procesando devolución de B0002 por usuario U111
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 3
+
+[16:15:02.398] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: B0006|U115|16:15:02.387
+  ? Procesando devolución de B0006 por usuario U115
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 4
+
+[16:15:03.257] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: B0010|U119|16:15:03.255
+  ? Procesando devolución de B0010 por usuario U119
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 5
+^C

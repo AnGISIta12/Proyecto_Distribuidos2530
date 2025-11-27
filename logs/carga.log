@@ -1,0 +1,88 @@
+==============================================
+Gestor de Carga - SEDE SEDE1 iniciado
+Puerto PS: 5555
+Puerto PUB: 5556
+Puerto PUSH: 5557
+==============================================
+
+
+[16:14:59.069] GC SEDE SEDE1 recibió: PRESTAMO|B0001|U100
+  ? Tarea enviada a ActorPrestamo: B0001|U100|1764278099050
+  ? Tiempo de respuesta: 48ms
+
+[16:14:59.321] GC SEDE SEDE1 recibió: PRESTAMO|B0002|U101
+  ? Tarea enviada a ActorPrestamo: B0002|U101|1764278099321
+  ? Tiempo de respuesta: 0ms
+
+[16:14:59.545] GC SEDE SEDE1 recibió: RENOVACION|B0003|U102
+  ? Respuesta enviada al PS: OK|Renovación aceptada para B0003. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': B0003|U102|2025-11-27T16:14:59.545260400|2025-12-04T16:14:59.545260400
+
+[16:14:59.758] GC SEDE SEDE1 recibió: DEVOLUCION|B0004|U103
+  ? Respuesta enviada al PS: OK|Devolución aceptada para B0004
+  ? Publicado en tópico 'devolucion': B0004|U103|16:14:59.759
+
+[16:14:59.977] GC SEDE SEDE1 recibió: PRESTAMO|B0005|U104
+  ? Tarea enviada a ActorPrestamo: B0005|U104|1764278099977
+  ? Tiempo de respuesta: 0ms
+
+[16:15:00.195] GC SEDE SEDE1 recibió: PRESTAMO|B0006|U105
+  ? Tarea enviada a ActorPrestamo: B0006|U105|1764278100195
+  ? Tiempo de respuesta: 1ms
+
+[16:15:00.412] GC SEDE SEDE1 recibió: RENOVACION|B0007|U106
+  ? Respuesta enviada al PS: OK|Renovación aceptada para B0007. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': B0007|U106|2025-11-27T16:15:00.412547900|2025-12-04T16:15:00.412547900
+
+[16:15:00.630] GC SEDE SEDE1 recibió: DEVOLUCION|B0008|U107
+  ? Respuesta enviada al PS: OK|Devolución aceptada para B0008
+  ? Publicado en tópico 'devolucion': B0008|U107|16:15:00.632
+
+[16:15:00.850] GC SEDE SEDE1 recibió: PRESTAMO|B0009|U108
+  ? Tarea enviada a ActorPrestamo: B0009|U108|1764278100850
+  ? Tiempo de respuesta: 1ms
+
+[16:15:01.068] GC SEDE SEDE1 recibió: PRESTAMO|B0010|U109
+  ? Tarea enviada a ActorPrestamo: B0010|U109|1764278101068
+  ? Tiempo de respuesta: 1ms
+
+[16:15:01.282] GC SEDE SEDE1 recibió: RENOVACION|B0001|U110
+  ? Respuesta enviada al PS: OK|Renovación aceptada para B0001. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': B0001|U110|2025-11-27T16:15:01.299289300|2025-12-04T16:15:01.299289300
+
+[16:15:01.515] GC SEDE SEDE1 recibió: DEVOLUCION|B0002|U111
+  ? Respuesta enviada al PS: OK|Devolución aceptada para B0002
+  ? Publicado en tópico 'devolucion': B0002|U111|16:15:01.516
+
+[16:15:01.735] GC SEDE SEDE1 recibió: PRESTAMO|B0003|U112
+  ? Tarea enviada a ActorPrestamo: B0003|U112|1764278101735
+  ? Tiempo de respuesta: 0ms
+
+[16:15:01.950] GC SEDE SEDE1 recibió: PRESTAMO|B0004|U113
+  ? Tarea enviada a ActorPrestamo: B0004|U113|1764278101950
+  ? Tiempo de respuesta: 1ms
+
+[16:15:02.177] GC SEDE SEDE1 recibió: RENOVACION|B0005|U114
+  ? Respuesta enviada al PS: OK|Renovación aceptada para B0005. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': B0005|U114|2025-11-27T16:15:02.177711100|2025-12-04T16:15:02.177711100
+
+[16:15:02.385] GC SEDE SEDE1 recibió: DEVOLUCION|B0006|U115
+  ? Respuesta enviada al PS: OK|Devolución aceptada para B0006
+  ? Publicado en tópico 'devolucion': B0006|U115|16:15:02.387
+
+[16:15:02.602] GC SEDE SEDE1 recibió: PRESTAMO|B0007|U116
+  ? Tarea enviada a ActorPrestamo: B0007|U116|1764278102602
+  ? Tiempo de respuesta: 1ms
+
+[16:15:02.820] GC SEDE SEDE1 recibió: PRESTAMO|B0008|U117
+  ? Tarea enviada a ActorPrestamo: B0008|U117|1764278102820
+  ? Tiempo de respuesta: 1ms
+
+[16:15:03.036] GC SEDE SEDE1 recibió: RENOVACION|B0009|U118
+  ? Respuesta enviada al PS: OK|Renovación aceptada para B0009. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': B0009|U118|2025-11-27T16:15:03.036872200|2025-12-04T16:15:03.036872200
+
+[16:15:03.253] GC SEDE SEDE1 recibió: DEVOLUCION|B0010|U119
+  ? Respuesta enviada al PS: OK|Devolución aceptada para B0010
+  ? Publicado en tópico 'devolucion': B0010|U119|16:15:03.255
+^C
