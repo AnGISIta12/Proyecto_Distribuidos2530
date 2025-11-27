@@ -5,6 +5,7 @@ import com.example.proyecto_distribuidos2530.modelo.Libro;
 import java.util.*;
 import java.io.*;
 
+// Clase que simula una base de datos de libros para una sede específica
 public class Database {
     private Map<String, Libro> libros;
     private String sede;
