@@ -4,6 +4,7 @@ import org.zeromq.ZMQ;
 import org.zeromq.ZContext;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+//Actor de Devolución - Procesa devoluciones de forma asíncrona, Patrón: Subscriber (Pub/Sub)
 
 public class ActorDevolucion {
     private static final String PUERTO_SUB = "5556";
