@@ -11,7 +11,7 @@ public class ProcesoSolicitante {
             return;
         }
 
-        String archivo = args[0];
+        String archivo = "peticiones.txt";
         ZMQ.Context context = ZMQ.context(1);
         ZMQ.Socket requester = context.socket(ZMQ.REQ);
         requester.connect("tcp://localhost:5555"); // puerto del GC

@@ -5,15 +5,16 @@ public class Libro {
     private String titulo;
     private int copiasDisponibles;
 
-
-    public Libro(String code, String title, int copiesAvailable) {
-        this.codigo = code;
-        this.titulo = title;
-        this.copiasDisponibles = copiesAvailable;
+    public Libro(String codigo, String titulo, int copiasDisponibles) {
+        this.codigo = codigo;
+        this.titulo = titulo;
+        this.copiasDisponibles = copiasDisponibles;
     }
 
-    public String getCode() { return codigo; }
-    public String getTitle() { return titulo; }
-    public int getCopiesAvailable() { return copiasDisponibles; }
-    public void setCopiesAvailable(int v) { this.copiasDisponibles = v; }
+    public String getCodigo() { return codigo; }
+    public String getTitulo() { return titulo; }
+    public int getCopiasDisponibles() { return copiasDisponibles; }
+    public void setCopiasDisponibles(int copiasDisponibles) {
+        this.copiasDisponibles = copiasDisponibles;
+    }
 }
