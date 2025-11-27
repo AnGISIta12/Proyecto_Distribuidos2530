@@ -10,9 +10,13 @@ public class GestorCarga {
         ZMQ.Socket receiver = context.socket(ZMQ.REP);
         receiver.bind("tcp://*:5555");
 
-        // Socket para publicar mensajes a los actores
+        // Socket para publicar mensajes a los actores (devolución y renovación)
         ZMQ.Socket publisher = context.socket(ZMQ.PUB);
         publisher.bind("tcp://*:5556");
+
+        // Socket PUSH para enviar tareas de préstamo al ActorPrestamo
+        ZMQ.Socket pusher = context.socket(ZMQ.PUSH);
+        pusher.bind("tcp://*:5557");
 
         System.out.println("Gestor de Carga listo...");
 
@@ -42,8 +46,9 @@ public class GestorCarga {
                         break;
 
                     case "PRESTAMO":
-                        // Por ahora solo se simula la respuesta
-                        receiver.send("Préstamo recibido (no implementado aún): " + libro);
+                        // Enviar tarea de préstamo mediante PUSH al ActorPrestamo
+                        pusher.send("Libro " + libro + " solicitado por " + usuario);
+                        receiver.send("Préstamo procesado correctamente para " + libro);
                         break;
 
                     default:
@@ -58,6 +63,7 @@ public class GestorCarga {
 
         receiver.close();
         publisher.close();
+        pusher.close();
         context.close();
     }
 }
