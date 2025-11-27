@@ -228,73 +228,13 @@ Campos:
 3. **Solicitudes procesadas**: Mayor es mejor
 4. **Tasa de éxito**: Debe ser cercana al 100%
 
-### Comparación de Diseños
-
-El informe debe comparar:
-
-- **Opción A**: Gestores seriales vs multihilos
-- **Opción B**: Comunicaciones asíncronas vs síncronas
-
-**Preguntas a responder:**
-- ¿Cuál diseño es más escalable?
-- ¿Cómo afecta la carga al tiempo de respuesta?
-- ¿Hay cuellos de botella identificables?
-
----
-
-## 🐛 Solución de Problemas
-
-### Error: "Connection refused"
-- Verificar que todos los servicios estén iniciados
-- Verificar IPs y puertos en la configuración
-- Revisar firewall/antivirus
-
-### Error: "Address already in use"
-- Puerto ocupado por otra aplicación
-- Detener procesos anteriores: `./detener.sh`
-
-### Bases de datos corruptas
-- Limpiar y reiniciar: `./limpiar_bd.sh`
-- Reiniciar todos los componentes
-
-### Logs útiles
-```bash
-# Ver procesos activos
-ps aux | grep java
-
-# Ver puertos en uso
-netstat -tulpn | grep 555
-
-# Verificar conectividad
-telnet <ip_sede> 5555
-```
-
----
-
-## 📝 Entregables
-
-### Segunda Entrega incluye:
-
-1. **Código fuente** (archivo .zip)
-2. **README** con instrucciones de ejecución
-3. **Video** (máx 10 minutos) mostrando:
-   - Distribución de componentes
-   - Librerías y patrones usados
-   - Tratamiento de fallas
-   - Generación de carga
-4. **Informe** (máx 5 páginas) con:
-   - Especificaciones HW/SW
-   - Resultados de experimentos
-   - Tablas y gráficos
-   - Análisis de resultados
-
----
-
 ## 👥 Equipo de Desarrollo
 
-- **Integrante 1**: [Nombre]
-- **Integrante 2**: [Nombre]
-- **Integrante 3**: [Nombre]
+- **Integrante 1**: Violeta Fajardo
+- **Integrante 2**: Samuel Osorio
+- **Integrante 3**: Alejandro Castelblanco
+- **Integrante 4**: Andrés Raba
+- **Integrante 4**: Angy Bautista
 
 ---
 
