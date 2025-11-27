@@ -76,10 +76,10 @@ test_local.bat
 ```
 
 ### Configuración de Red
-1️⃣ Máquina 1 (10.43.103.47) → ProcesoSolicitante
-2️⃣ Máquina 2 (10.43.101.241) → GestorCarga  
-3️⃣ Máquina 3 (10.43.102.104) → ActorDevolucion
-4️⃣ Máquina 4 (10.43.103.107) → ActorRenovacion
+- 1️⃣ Máquina 1 (10.43.103.47) → ProcesoSolicitante
+- 2️⃣ Máquina 2 (10.43.101.241) → GestorCarga  
+- 3️⃣ Máquina 3 (10.43.102.104) → ActorDevolucion
+- 4️⃣ Máquina 4 (10.43.103.107) → ActorRenovacion
 ---
 ### Opción 2: Ejecución Manual
 
