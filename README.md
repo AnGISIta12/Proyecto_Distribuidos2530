@@ -71,43 +71,16 @@ cd proyecto_distribuidos2530
 mvn clean package
 
 # Verificar compilación
-ls target/proyecto_distribuidos2530-1.0-SNAPSHOT.jar
+test_local.bat
+(ESTE EJECUTA LAS 6 TERMINALES NECESARIAS AUTOMATICAMENTE)
 ```
 
 ### Configuración de Red
-
-Antes de ejecutar, actualizar las IPs en los scripts:
-
-```bash
-# En ejecutar_clientes.sh
-IP_SEDE1="192.168.1.100"  # IP de Máquina 1
-IP_SEDE2="192.168.1.101"  # IP de Máquina 2
-```
-
+- 1️⃣ Máquina 1 (10.43.103.47) → ProcesoSolicitante
+- 2️⃣ Máquina 2 (10.43.101.241) → GestorCarga  
+- 3️⃣ Máquina 3 (10.43.102.104) → ActorDevolucion
+- 4️⃣ Máquina 4 (10.43.103.107) → ActorRenovacion
 ---
-
-## 🎮 Ejecución del Sistema
-
-### Opción 1: Ejecución Automática 
-
-#### Máquina 1 (SEDE 1):
-```bash
-chmod +x ejecutar_sede1.sh
-./ejecutar_sede1.sh
-```
-
-#### Máquina 2 (SEDE 2):
-```bash
-chmod +x ejecutar_sede2.sh
-./ejecutar_sede2.sh
-```
-
-#### Máquina 3 (Clientes):
-```bash
-chmod +x ejecutar_clientes.sh
-./ejecutar_clientes.sh
-```
-
 ### Opción 2: Ejecución Manual
 
 #### Paso 1: Iniciar Gestores de Almacenamiento
