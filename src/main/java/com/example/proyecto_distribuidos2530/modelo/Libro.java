@@ -1,6 +1,10 @@
 package com.example.proyecto_distribuidos2530.modelo;
 
-public class Libro {
+import java.io.Serializable;
+
+public class Libro implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
     private String codigo;
     private String titulo;
     private int copiasDisponibles;

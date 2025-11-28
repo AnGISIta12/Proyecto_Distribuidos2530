@@ -1,48 +1,215 @@
 ==============================================
 ActorRenovacion SEDE SEDE1 iniciado
 Suscrito al tópico: renovacion
-GC: localhost:5556
-GA: localhost:5558
+SEDE PRIMARIA: localhost:5558
+SEDE RESPALDO: localhost:6558
 ==============================================
 
 
-[16:14:59.578] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
-  Mensaje: B0003|U102|2025-11-27T16:14:59.545260400|2025-12-04T16:14:59.545260400
-  ? Procesando renovación de B0003 por usuario U102
-  ? Nueva fecha de entrega: 2025-12-04T16:14:59.545260400
+[19:55:04.595] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1502|U102|2025-11-27T19:55:04.557971400|2025-12-04T19:55:04.557971400
+  ? Procesando renovación de LIB1502 por usuario U102
+  ? Nueva fecha de entrega: 2025-12-04T19:55:04.557971400
   ? ? Renovación registrada exitosamente
   ? BD respondió: RENOVACION_OK
   ? Total procesadas: 1
 
-[16:15:00.414] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
-  Mensaje: B0007|U106|2025-11-27T16:15:00.412547900|2025-12-04T16:15:00.412547900
-  ? Procesando renovación de B0007 por usuario U106
-  ? Nueva fecha de entrega: 2025-12-04T16:15:00.412547900
+[19:55:05.430] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1506|U106|2025-11-27T19:55:05.429610600|2025-12-04T19:55:05.429610600
+  ? Procesando renovación de LIB1506 por usuario U106
+  ? Nueva fecha de entrega: 2025-12-04T19:55:05.429610600
   ? ? Renovación registrada exitosamente
   ? BD respondió: RENOVACION_OK
   ? Total procesadas: 2
 
-[16:15:01.301] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
-  Mensaje: B0001|U110|2025-11-27T16:15:01.299289300|2025-12-04T16:15:01.299289300
-  ? Procesando renovación de B0001 por usuario U110
-  ? Nueva fecha de entrega: 2025-12-04T16:15:01.299289300
+[19:55:06.285] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1510|U110|2025-11-27T19:55:06.283758500|2025-12-04T19:55:06.283758500
+  ? Procesando renovación de LIB1510 por usuario U110
+  ? Nueva fecha de entrega: 2025-12-04T19:55:06.283758500
   ? ? Renovación registrada exitosamente
   ? BD respondió: RENOVACION_OK
   ? Total procesadas: 3
 
-[16:15:02.180] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
-  Mensaje: B0005|U114|2025-11-27T16:15:02.177711100|2025-12-04T16:15:02.177711100
-  ? Procesando renovación de B0005 por usuario U114
-  ? Nueva fecha de entrega: 2025-12-04T16:15:02.177711100
+[19:55:07.142] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1514|U114|2025-11-27T19:55:07.141269500|2025-12-04T19:55:07.141269500
+  ? Procesando renovación de LIB1514 por usuario U114
+  ? Nueva fecha de entrega: 2025-12-04T19:55:07.141269500
+  [!] Timeout en Renovación de LIB1514 (intento 1/3)
+  [X] Error en Renovación de LIB1514 (intento 2/3): Errno 156384763
+  [X] Error en Renovación de LIB1514 (intento 3/3): Errno 156384763
+  [X] FALLO: Renovación de LIB1514 falló después de 3 intentos
+  ? ? Error de comunicación con GA (1/2 fallos)
+
+[19:55:14.167] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1518|U118|2025-11-27T19:55:07.993240400|2025-12-04T19:55:07.993240400
+  ? Procesando renovación de LIB1518 por usuario U118
+  ? Nueva fecha de entrega: 2025-12-04T19:55:07.993240400
+  [X] Error en Renovación de LIB1518 (intento 1/3): Errno 156384763
+  [X] Error en Renovación de LIB1518 (intento 2/3): Errno 156384763
+  [X] Error en Renovación de LIB1518 (intento 3/3): Errno 156384763
+  [X] FALLO: Renovación de LIB1518 falló después de 3 intentos
+  ? ? Error de comunicación con GA (2/2 fallos)
+
+[FAILOVER-REN] Detectados 2 fallos en SEDE1
+[FAILOVER-REN] Cambiando a SEDE2...
+[FAILOVER-REN] ? Conectado a SEDE2
+
+[19:55:16.219] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1522|U122|2025-11-27T19:55:08.856116|2025-12-04T19:55:08.856116
+  ? Procesando renovación de LIB1522 por usuario U122
+  ? Nueva fecha de entrega: 2025-12-04T19:55:08.856116
   ? ? Renovación registrada exitosamente
   ? BD respondió: RENOVACION_OK
   ? Total procesadas: 4
 
-[16:15:03.038] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
-  Mensaje: B0009|U118|2025-11-27T16:15:03.036872200|2025-12-04T16:15:03.036872200
-  ? Procesando renovación de B0009 por usuario U118
-  ? Nueva fecha de entrega: 2025-12-04T16:15:03.036872200
+[19:55:16.265] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1526|U126|2025-11-27T19:55:09.711429300|2025-12-04T19:55:09.711429300
+  ? Procesando renovación de LIB1526 por usuario U126
+  ? Nueva fecha de entrega: 2025-12-04T19:55:09.711429300
   ? ? Renovación registrada exitosamente
   ? BD respondió: RENOVACION_OK
   ? Total procesadas: 5
-^C
+
+[19:55:16.311] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1530|U130|2025-11-27T19:55:10.553696300|2025-12-04T19:55:10.553696300
+  ? Procesando renovación de LIB1530 por usuario U130
+  ? Nueva fecha de entrega: 2025-12-04T19:55:10.553696300
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 6
+
+[19:55:16.354] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1534|U134|2025-11-27T19:55:11.410715300|2025-12-04T19:55:11.410715300
+  ? Procesando renovación de LIB1534 por usuario U134
+  ? Nueva fecha de entrega: 2025-12-04T19:55:11.410715300
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 7
+
+[19:55:16.394] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1538|U138|2025-11-27T19:55:12.255570|2025-12-04T19:55:12.255570
+  ? Procesando renovación de LIB1538 por usuario U138
+  ? Nueva fecha de entrega: 2025-12-04T19:55:12.255570
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 8
+
+[19:55:16.443] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1542|U142|2025-11-27T19:55:13.095781600|2025-12-04T19:55:13.095781600
+  ? Procesando renovación de LIB1542 por usuario U142
+  ? Nueva fecha de entrega: 2025-12-04T19:55:13.095781600
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 9
+
+[19:55:16.486] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1546|U146|2025-11-27T19:55:13.948286100|2025-12-04T19:55:13.948286100
+  ? Procesando renovación de LIB1546 por usuario U146
+  ? Nueva fecha de entrega: 2025-12-04T19:55:13.948286100
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 10
+
+[19:55:16.525] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1550|U150|2025-11-27T19:55:14.816215800|2025-12-04T19:55:14.816215800
+  ? Procesando renovación de LIB1550 por usuario U150
+  ? Nueva fecha de entrega: 2025-12-04T19:55:14.816215800
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 11
+
+[19:55:16.569] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1554|U154|2025-11-27T19:55:15.658534|2025-12-04T19:55:15.658534
+  ? Procesando renovación de LIB1554 por usuario U154
+  ? Nueva fecha de entrega: 2025-12-04T19:55:15.658534
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 12
+
+[19:55:16.596] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1558|U158|2025-11-27T19:55:16.495017|2025-12-04T19:55:16.495017
+  ? Procesando renovación de LIB1558 por usuario U158
+  ? Nueva fecha de entrega: 2025-12-04T19:55:16.495017
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 13
+
+[19:55:17.324] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1562|U162|2025-11-27T19:55:17.323901500|2025-12-04T19:55:17.323901500
+  ? Procesando renovación de LIB1562 por usuario U162
+  ? Nueva fecha de entrega: 2025-12-04T19:55:17.323901500
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 14
+
+[19:55:18.178] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1566|U166|2025-11-27T19:55:18.177601|2025-12-04T19:55:18.177601
+  ? Procesando renovación de LIB1566 por usuario U166
+  ? Nueva fecha de entrega: 2025-12-04T19:55:18.177601
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 15
+
+[19:55:19.044] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1570|U170|2025-11-27T19:55:19.043153600|2025-12-04T19:55:19.043153600
+  ? Procesando renovación de LIB1570 por usuario U170
+  ? Nueva fecha de entrega: 2025-12-04T19:55:19.043153600
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 16
+
+[19:55:19.899] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1574|U174|2025-11-27T19:55:19.898508|2025-12-04T19:55:19.898508
+  ? Procesando renovación de LIB1574 por usuario U174
+  ? Nueva fecha de entrega: 2025-12-04T19:55:19.898508
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 17
+
+[19:55:20.755] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1578|U178|2025-11-27T19:55:20.754734500|2025-12-04T19:55:20.754734500
+  ? Procesando renovación de LIB1578 por usuario U178
+  ? Nueva fecha de entrega: 2025-12-04T19:55:20.754734500
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 18
+
+[19:55:21.624] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1582|U182|2025-11-27T19:55:21.622709|2025-12-04T19:55:21.622709
+  ? Procesando renovación de LIB1582 por usuario U182
+  ? Nueva fecha de entrega: 2025-12-04T19:55:21.622709
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 19
+
+[19:55:22.492] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1586|U186|2025-11-27T19:55:22.491676|2025-12-04T19:55:22.491676
+  ? Procesando renovación de LIB1586 por usuario U186
+  ? Nueva fecha de entrega: 2025-12-04T19:55:22.491676
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 20
+
+[19:55:23.345] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1590|U190|2025-11-27T19:55:23.345244400|2025-12-04T19:55:23.345244400
+  ? Procesando renovación de LIB1590 por usuario U190
+  ? Nueva fecha de entrega: 2025-12-04T19:55:23.345244400
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 21
+
+[19:55:24.198] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1594|U194|2025-11-27T19:55:24.197056100|2025-12-04T19:55:24.197056100
+  ? Procesando renovación de LIB1594 por usuario U194
+  ? Nueva fecha de entrega: 2025-12-04T19:55:24.197056100
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 22
+
+[19:55:25.044] ActorRenovacion SEDE SEDE1 recibió del tópico 'renovacion':
+  Mensaje: LIB1598|U198|2025-11-27T19:55:25.043968300|2025-12-04T19:55:25.043968300
+  ? Procesando renovación de LIB1598 por usuario U198
+  ? Nueva fecha de entrega: 2025-12-04T19:55:25.043968300
+  ? ? Renovación registrada exitosamente
+  ? BD respondió: RENOVACION_OK
+  ? Total procesadas: 23

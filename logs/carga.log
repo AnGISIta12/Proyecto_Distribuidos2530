@@ -6,83 +6,402 @@ Puerto PUSH: 5557
 ==============================================
 
 
-[16:14:59.069] GC SEDE SEDE1 recibió: PRESTAMO|B0001|U100
-  ? Tarea enviada a ActorPrestamo: B0001|U100|1764278099050
-  ? Tiempo de respuesta: 48ms
+[19:55:04.095] GC SEDE SEDE1 recibió: PRESTAMO|LIB1500|U100
+  ? Tarea enviada a ActorPrestamo: LIB1500|U100|1764291304070
+  ? Tiempo de respuesta: 53ms
 
-[16:14:59.321] GC SEDE SEDE1 recibió: PRESTAMO|B0002|U101
-  ? Tarea enviada a ActorPrestamo: B0002|U101|1764278099321
+[19:55:04.339] GC SEDE SEDE1 recibió: PRESTAMO|LIB1501|U101
+  ? Tarea enviada a ActorPrestamo: LIB1501|U101|1764291304339
   ? Tiempo de respuesta: 0ms
 
-[16:14:59.545] GC SEDE SEDE1 recibió: RENOVACION|B0003|U102
-  ? Respuesta enviada al PS: OK|Renovación aceptada para B0003. Nueva fecha: 04/12/2025
-  ? Publicado en tópico 'renovacion': B0003|U102|2025-11-27T16:14:59.545260400|2025-12-04T16:14:59.545260400
+[19:55:04.557] GC SEDE SEDE1 recibió: RENOVACION|LIB1502|U102
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1502. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1502|U102|2025-11-27T19:55:04.557971400|2025-12-04T19:55:04.557971400
 
-[16:14:59.758] GC SEDE SEDE1 recibió: DEVOLUCION|B0004|U103
-  ? Respuesta enviada al PS: OK|Devolución aceptada para B0004
-  ? Publicado en tópico 'devolucion': B0004|U103|16:14:59.759
+[19:55:04.773] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1503|U103
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1503
+  ? Publicado en tópico 'devolucion': LIB1503|U103|19:55:04.775
 
-[16:14:59.977] GC SEDE SEDE1 recibió: PRESTAMO|B0005|U104
-  ? Tarea enviada a ActorPrestamo: B0005|U104|1764278099977
+[19:55:04.992] GC SEDE SEDE1 recibió: PRESTAMO|LIB1504|U104
+  ? Tarea enviada a ActorPrestamo: LIB1504|U104|1764291304992
   ? Tiempo de respuesta: 0ms
 
-[16:15:00.195] GC SEDE SEDE1 recibió: PRESTAMO|B0006|U105
-  ? Tarea enviada a ActorPrestamo: B0006|U105|1764278100195
+[19:55:05.209] GC SEDE SEDE1 recibió: PRESTAMO|LIB1505|U105
+  ? Tarea enviada a ActorPrestamo: LIB1505|U105|1764291305209
   ? Tiempo de respuesta: 1ms
 
-[16:15:00.412] GC SEDE SEDE1 recibió: RENOVACION|B0007|U106
-  ? Respuesta enviada al PS: OK|Renovación aceptada para B0007. Nueva fecha: 04/12/2025
-  ? Publicado en tópico 'renovacion': B0007|U106|2025-11-27T16:15:00.412547900|2025-12-04T16:15:00.412547900
+[19:55:05.427] GC SEDE SEDE1 recibió: RENOVACION|LIB1506|U106
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1506. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1506|U106|2025-11-27T19:55:05.429610600|2025-12-04T19:55:05.429610600
 
-[16:15:00.630] GC SEDE SEDE1 recibió: DEVOLUCION|B0008|U107
-  ? Respuesta enviada al PS: OK|Devolución aceptada para B0008
-  ? Publicado en tópico 'devolucion': B0008|U107|16:15:00.632
+[19:55:05.645] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1507|U107
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1507
+  ? Publicado en tópico 'devolucion': LIB1507|U107|19:55:05.646
 
-[16:15:00.850] GC SEDE SEDE1 recibió: PRESTAMO|B0009|U108
-  ? Tarea enviada a ActorPrestamo: B0009|U108|1764278100850
-  ? Tiempo de respuesta: 1ms
+[19:55:05.863] GC SEDE SEDE1 recibió: PRESTAMO|LIB1508|U108
+  ? Tarea enviada a ActorPrestamo: LIB1508|U108|1764291305861
+  ? Tiempo de respuesta: 2ms
 
-[16:15:01.068] GC SEDE SEDE1 recibió: PRESTAMO|B0010|U109
-  ? Tarea enviada a ActorPrestamo: B0010|U109|1764278101068
-  ? Tiempo de respuesta: 1ms
-
-[16:15:01.282] GC SEDE SEDE1 recibió: RENOVACION|B0001|U110
-  ? Respuesta enviada al PS: OK|Renovación aceptada para B0001. Nueva fecha: 04/12/2025
-  ? Publicado en tópico 'renovacion': B0001|U110|2025-11-27T16:15:01.299289300|2025-12-04T16:15:01.299289300
-
-[16:15:01.515] GC SEDE SEDE1 recibió: DEVOLUCION|B0002|U111
-  ? Respuesta enviada al PS: OK|Devolución aceptada para B0002
-  ? Publicado en tópico 'devolucion': B0002|U111|16:15:01.516
-
-[16:15:01.735] GC SEDE SEDE1 recibió: PRESTAMO|B0003|U112
-  ? Tarea enviada a ActorPrestamo: B0003|U112|1764278101735
+[19:55:06.065] GC SEDE SEDE1 recibió: PRESTAMO|LIB1509|U109
+  ? Tarea enviada a ActorPrestamo: LIB1509|U109|1764291306065
   ? Tiempo de respuesta: 0ms
 
-[16:15:01.950] GC SEDE SEDE1 recibió: PRESTAMO|B0004|U113
-  ? Tarea enviada a ActorPrestamo: B0004|U113|1764278101950
+[19:55:06.283] GC SEDE SEDE1 recibió: RENOVACION|LIB1510|U110
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1510. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1510|U110|2025-11-27T19:55:06.283758500|2025-12-04T19:55:06.283758500
+
+[19:55:06.501] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1511|U111
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1511
+  ? Publicado en tópico 'devolucion': LIB1511|U111|19:55:06.501
+
+[19:55:06.719] GC SEDE SEDE1 recibió: PRESTAMO|LIB1512|U112
+  ? Tarea enviada a ActorPrestamo: LIB1512|U112|1764291306719
   ? Tiempo de respuesta: 1ms
 
-[16:15:02.177] GC SEDE SEDE1 recibió: RENOVACION|B0005|U114
-  ? Respuesta enviada al PS: OK|Renovación aceptada para B0005. Nueva fecha: 04/12/2025
-  ? Publicado en tópico 'renovacion': B0005|U114|2025-11-27T16:15:02.177711100|2025-12-04T16:15:02.177711100
+[19:55:06.935] GC SEDE SEDE1 recibió: PRESTAMO|LIB1513|U113
+  ? Tarea enviada a ActorPrestamo: LIB1513|U113|1764291306935
+  ? Tiempo de respuesta: 0ms
 
-[16:15:02.385] GC SEDE SEDE1 recibió: DEVOLUCION|B0006|U115
-  ? Respuesta enviada al PS: OK|Devolución aceptada para B0006
-  ? Publicado en tópico 'devolucion': B0006|U115|16:15:02.387
+[19:55:07.141] GC SEDE SEDE1 recibió: RENOVACION|LIB1514|U114
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1514. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1514|U114|2025-11-27T19:55:07.141269500|2025-12-04T19:55:07.141269500
 
-[16:15:02.602] GC SEDE SEDE1 recibió: PRESTAMO|B0007|U116
-  ? Tarea enviada a ActorPrestamo: B0007|U116|1764278102602
+[19:55:07.352] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1515|U115
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1515
+  ? Publicado en tópico 'devolucion': LIB1515|U115|19:55:07.353
+
+[19:55:07.570] GC SEDE SEDE1 recibió: PRESTAMO|LIB1516|U116
+  ? Tarea enviada a ActorPrestamo: LIB1516|U116|1764291307570
+  ? Tiempo de respuesta: 0ms
+
+[19:55:07.788] GC SEDE SEDE1 recibió: PRESTAMO|LIB1517|U117
+  ? Tarea enviada a ActorPrestamo: LIB1517|U117|1764291307788
+  ? Tiempo de respuesta: 0ms
+
+[19:55:07.992] GC SEDE SEDE1 recibió: RENOVACION|LIB1518|U118
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1518. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1518|U118|2025-11-27T19:55:07.993240400|2025-12-04T19:55:07.993240400
+
+[19:55:08.209] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1519|U119
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1519
+  ? Publicado en tópico 'devolucion': LIB1519|U119|19:55:08.209
+
+[19:55:08.425] GC SEDE SEDE1 recibió: PRESTAMO|LIB1520|U120
+  ? Tarea enviada a ActorPrestamo: LIB1520|U120|1764291308425
   ? Tiempo de respuesta: 1ms
 
-[16:15:02.820] GC SEDE SEDE1 recibió: PRESTAMO|B0008|U117
-  ? Tarea enviada a ActorPrestamo: B0008|U117|1764278102820
+[19:55:08.640] GC SEDE SEDE1 recibió: PRESTAMO|LIB1521|U121
+  ? Tarea enviada a ActorPrestamo: LIB1521|U121|1764291308640
   ? Tiempo de respuesta: 1ms
 
-[16:15:03.036] GC SEDE SEDE1 recibió: RENOVACION|B0009|U118
-  ? Respuesta enviada al PS: OK|Renovación aceptada para B0009. Nueva fecha: 04/12/2025
-  ? Publicado en tópico 'renovacion': B0009|U118|2025-11-27T16:15:03.036872200|2025-12-04T16:15:03.036872200
+[19:55:08.854] GC SEDE SEDE1 recibió: RENOVACION|LIB1522|U122
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1522. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1522|U122|2025-11-27T19:55:08.856116|2025-12-04T19:55:08.856116
 
-[16:15:03.253] GC SEDE SEDE1 recibió: DEVOLUCION|B0010|U119
-  ? Respuesta enviada al PS: OK|Devolución aceptada para B0010
-  ? Publicado en tópico 'devolucion': B0010|U119|16:15:03.255
-^C
+[19:55:09.074] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1523|U123
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1523
+  ? Publicado en tópico 'devolucion': LIB1523|U123|19:55:09.074
+
+[19:55:09.291] GC SEDE SEDE1 recibió: PRESTAMO|LIB1524|U124
+  ? Tarea enviada a ActorPrestamo: LIB1524|U124|1764291309291
+  ? Tiempo de respuesta: 1ms
+
+[19:55:09.494] GC SEDE SEDE1 recibió: PRESTAMO|LIB1525|U125
+  ? Tarea enviada a ActorPrestamo: LIB1525|U125|1764291309494
+  ? Tiempo de respuesta: 1ms
+
+[19:55:09.711] GC SEDE SEDE1 recibió: RENOVACION|LIB1526|U126
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1526. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1526|U126|2025-11-27T19:55:09.711429300|2025-12-04T19:55:09.711429300
+
+[19:55:09.928] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1527|U127
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1527
+  ? Publicado en tópico 'devolucion': LIB1527|U127|19:55:09.929
+
+[19:55:10.131] GC SEDE SEDE1 recibió: PRESTAMO|LIB1528|U128
+  ? Tarea enviada a ActorPrestamo: LIB1528|U128|1764291310131
+  ? Tiempo de respuesta: 0ms
+
+[19:55:10.348] GC SEDE SEDE1 recibió: PRESTAMO|LIB1529|U129
+  ? Tarea enviada a ActorPrestamo: LIB1529|U129|1764291310348
+  ? Tiempo de respuesta: 1ms
+
+[19:55:10.553] GC SEDE SEDE1 recibió: RENOVACION|LIB1530|U130
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1530. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1530|U130|2025-11-27T19:55:10.553696300|2025-12-04T19:55:10.553696300
+
+[19:55:10.770] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1531|U131
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1531
+  ? Publicado en tópico 'devolucion': LIB1531|U131|19:55:10.771
+
+[19:55:10.986] GC SEDE SEDE1 recibió: PRESTAMO|LIB1532|U132
+  ? Tarea enviada a ActorPrestamo: LIB1532|U132|1764291310986
+  ? Tiempo de respuesta: 1ms
+
+[19:55:11.206] GC SEDE SEDE1 recibió: PRESTAMO|LIB1533|U133
+  ? Tarea enviada a ActorPrestamo: LIB1533|U133|1764291311206
+  ? Tiempo de respuesta: 0ms
+
+[19:55:11.410] GC SEDE SEDE1 recibió: RENOVACION|LIB1534|U134
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1534. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1534|U134|2025-11-27T19:55:11.410715300|2025-12-04T19:55:11.410715300
+
+[19:55:11.618] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1535|U135
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1535
+  ? Publicado en tópico 'devolucion': LIB1535|U135|19:55:11.618
+
+[19:55:11.821] GC SEDE SEDE1 recibió: PRESTAMO|LIB1536|U136
+  ? Tarea enviada a ActorPrestamo: LIB1536|U136|1764291311821
+  ? Tiempo de respuesta: 2ms
+
+[19:55:12.035] GC SEDE SEDE1 recibió: PRESTAMO|LIB1537|U137
+  ? Tarea enviada a ActorPrestamo: LIB1537|U137|1764291312035
+  ? Tiempo de respuesta: 2ms
+
+[19:55:12.254] GC SEDE SEDE1 recibió: RENOVACION|LIB1538|U138
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1538. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1538|U138|2025-11-27T19:55:12.255570|2025-12-04T19:55:12.255570
+
+[19:55:12.458] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1539|U139
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1539
+  ? Publicado en tópico 'devolucion': LIB1539|U139|19:55:12.458
+
+[19:55:12.675] GC SEDE SEDE1 recibió: PRESTAMO|LIB1540|U140
+  ? Tarea enviada a ActorPrestamo: LIB1540|U140|1764291312675
+  ? Tiempo de respuesta: 1ms
+
+[19:55:12.880] GC SEDE SEDE1 recibió: PRESTAMO|LIB1541|U141
+  ? Tarea enviada a ActorPrestamo: LIB1541|U141|1764291312880
+  ? Tiempo de respuesta: 1ms
+
+[19:55:13.095] GC SEDE SEDE1 recibió: RENOVACION|LIB1542|U142
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1542. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1542|U142|2025-11-27T19:55:13.095781600|2025-12-04T19:55:13.095781600
+
+[19:55:13.313] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1543|U143
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1543
+  ? Publicado en tópico 'devolucion': LIB1543|U143|19:55:13.313
+
+[19:55:13.527] GC SEDE SEDE1 recibió: PRESTAMO|LIB1544|U144
+  ? Tarea enviada a ActorPrestamo: LIB1544|U144|1764291313527
+  ? Tiempo de respuesta: 1ms
+
+[19:55:13.743] GC SEDE SEDE1 recibió: PRESTAMO|LIB1545|U145
+  ? Tarea enviada a ActorPrestamo: LIB1545|U145|1764291313743
+  ? Tiempo de respuesta: 1ms
+
+[19:55:13.948] GC SEDE SEDE1 recibió: RENOVACION|LIB1546|U146
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1546. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1546|U146|2025-11-27T19:55:13.948286100|2025-12-04T19:55:13.948286100
+
+[19:55:14.167] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1547|U147
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1547
+  ? Publicado en tópico 'devolucion': LIB1547|U147|19:55:14.168
+
+[19:55:14.381] GC SEDE SEDE1 recibió: PRESTAMO|LIB1548|U148
+  ? Tarea enviada a ActorPrestamo: LIB1548|U148|1764291314381
+  ? Tiempo de respuesta: 1ms
+
+[19:55:14.599] GC SEDE SEDE1 recibió: PRESTAMO|LIB1549|U149
+  ? Tarea enviada a ActorPrestamo: LIB1549|U149|1764291314599
+  ? Tiempo de respuesta: 1ms
+
+[19:55:14.816] GC SEDE SEDE1 recibió: RENOVACION|LIB1550|U150
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1550. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1550|U150|2025-11-27T19:55:14.816215800|2025-12-04T19:55:14.816215800
+
+[19:55:15.020] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1551|U151
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1551
+  ? Publicado en tópico 'devolucion': LIB1551|U151|19:55:15.021
+
+[19:55:15.237] GC SEDE SEDE1 recibió: PRESTAMO|LIB1552|U152
+  ? Tarea enviada a ActorPrestamo: LIB1552|U152|1764291315237
+  ? Tiempo de respuesta: 0ms
+
+[19:55:15.454] GC SEDE SEDE1 recibió: PRESTAMO|LIB1553|U153
+  ? Tarea enviada a ActorPrestamo: LIB1553|U153|1764291315454
+  ? Tiempo de respuesta: 0ms
+
+[19:55:15.657] GC SEDE SEDE1 recibió: RENOVACION|LIB1554|U154
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1554. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1554|U154|2025-11-27T19:55:15.658534|2025-12-04T19:55:15.658534
+
+[19:55:15.869] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1555|U155
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1555
+  ? Publicado en tópico 'devolucion': LIB1555|U155|19:55:15.871
+
+[19:55:16.076] GC SEDE SEDE1 recibió: PRESTAMO|LIB1556|U156
+  ? Tarea enviada a ActorPrestamo: LIB1556|U156|1764291316076
+  ? Tiempo de respuesta: 0ms
+
+[19:55:16.291] GC SEDE SEDE1 recibió: PRESTAMO|LIB1557|U157
+  ? Tarea enviada a ActorPrestamo: LIB1557|U157|1764291316291
+  ? Tiempo de respuesta: 1ms
+
+[19:55:16.495] GC SEDE SEDE1 recibió: RENOVACION|LIB1558|U158
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1558. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1558|U158|2025-11-27T19:55:16.495017|2025-12-04T19:55:16.495017
+
+[19:55:16.699] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1559|U159
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1559
+  ? Publicado en tópico 'devolucion': LIB1559|U159|19:55:16.700
+
+[19:55:16.903] GC SEDE SEDE1 recibió: PRESTAMO|LIB1560|U160
+  ? Tarea enviada a ActorPrestamo: LIB1560|U160|1764291316903
+  ? Tiempo de respuesta: 0ms
+
+[19:55:17.119] GC SEDE SEDE1 recibió: PRESTAMO|LIB1561|U161
+  ? Tarea enviada a ActorPrestamo: LIB1561|U161|1764291317119
+  ? Tiempo de respuesta: 1ms
+
+[19:55:17.323] GC SEDE SEDE1 recibió: RENOVACION|LIB1562|U162
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1562. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1562|U162|2025-11-27T19:55:17.323901500|2025-12-04T19:55:17.323901500
+
+[19:55:17.541] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1563|U163
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1563
+  ? Publicado en tópico 'devolucion': LIB1563|U163|19:55:17.541
+
+[19:55:17.744] GC SEDE SEDE1 recibió: PRESTAMO|LIB1564|U164
+  ? Tarea enviada a ActorPrestamo: LIB1564|U164|1764291317744
+  ? Tiempo de respuesta: 2ms
+
+[19:55:17.961] GC SEDE SEDE1 recibió: PRESTAMO|LIB1565|U165
+  ? Tarea enviada a ActorPrestamo: LIB1565|U165|1764291317961
+  ? Tiempo de respuesta: 0ms
+
+[19:55:18.177] GC SEDE SEDE1 recibió: RENOVACION|LIB1566|U166
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1566. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1566|U166|2025-11-27T19:55:18.177601|2025-12-04T19:55:18.177601
+
+[19:55:18.395] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1567|U167
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1567
+  ? Publicado en tópico 'devolucion': LIB1567|U167|19:55:18.395
+
+[19:55:18.609] GC SEDE SEDE1 recibió: PRESTAMO|LIB1568|U168
+  ? Tarea enviada a ActorPrestamo: LIB1568|U168|1764291318609
+  ? Tiempo de respuesta: 1ms
+
+[19:55:18.825] GC SEDE SEDE1 recibió: PRESTAMO|LIB1569|U169
+  ? Tarea enviada a ActorPrestamo: LIB1569|U169|1764291318825
+  ? Tiempo de respuesta: 1ms
+
+[19:55:19.042] GC SEDE SEDE1 recibió: RENOVACION|LIB1570|U170
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1570. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1570|U170|2025-11-27T19:55:19.043153600|2025-12-04T19:55:19.043153600
+
+[19:55:19.259] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1571|U171
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1571
+  ? Publicado en tópico 'devolucion': LIB1571|U171|19:55:19.259
+
+[19:55:19.477] GC SEDE SEDE1 recibió: PRESTAMO|LIB1572|U172
+  ? Tarea enviada a ActorPrestamo: LIB1572|U172|1764291319477
+  ? Tiempo de respuesta: 1ms
+
+[19:55:19.681] GC SEDE SEDE1 recibió: PRESTAMO|LIB1573|U173
+  ? Tarea enviada a ActorPrestamo: LIB1573|U173|1764291319681
+  ? Tiempo de respuesta: 0ms
+
+[19:55:19.898] GC SEDE SEDE1 recibió: RENOVACION|LIB1574|U174
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1574. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1574|U174|2025-11-27T19:55:19.898508|2025-12-04T19:55:19.898508
+
+[19:55:20.101] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1575|U175
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1575
+  ? Publicado en tópico 'devolucion': LIB1575|U175|19:55:20.102
+
+[19:55:20.319] GC SEDE SEDE1 recibió: PRESTAMO|LIB1576|U176
+  ? Tarea enviada a ActorPrestamo: LIB1576|U176|1764291320319
+  ? Tiempo de respuesta: 1ms
+
+[19:55:20.536] GC SEDE SEDE1 recibió: PRESTAMO|LIB1577|U177
+  ? Tarea enviada a ActorPrestamo: LIB1577|U177|1764291320536
+  ? Tiempo de respuesta: 1ms
+
+[19:55:20.753] GC SEDE SEDE1 recibió: RENOVACION|LIB1578|U178
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1578. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1578|U178|2025-11-27T19:55:20.754734500|2025-12-04T19:55:20.754734500
+
+[19:55:20.969] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1579|U179
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1579
+  ? Publicado en tópico 'devolucion': LIB1579|U179|19:55:20.970
+
+[19:55:21.186] GC SEDE SEDE1 recibió: PRESTAMO|LIB1580|U180
+  ? Tarea enviada a ActorPrestamo: LIB1580|U180|1764291321186
+  ? Tiempo de respuesta: 1ms
+
+[19:55:21.403] GC SEDE SEDE1 recibió: PRESTAMO|LIB1581|U181
+  ? Tarea enviada a ActorPrestamo: LIB1581|U181|1764291321403
+  ? Tiempo de respuesta: 1ms
+
+[19:55:21.622] GC SEDE SEDE1 recibió: RENOVACION|LIB1582|U182
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1582. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1582|U182|2025-11-27T19:55:21.622709|2025-12-04T19:55:21.622709
+
+[19:55:21.840] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1583|U183
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1583
+  ? Publicado en tópico 'devolucion': LIB1583|U183|19:55:21.841
+
+[19:55:22.059] GC SEDE SEDE1 recibió: PRESTAMO|LIB1584|U184
+  ? Tarea enviada a ActorPrestamo: LIB1584|U184|1764291322059
+  ? Tiempo de respuesta: 0ms
+
+[19:55:22.275] GC SEDE SEDE1 recibió: PRESTAMO|LIB1585|U185
+  ? Tarea enviada a ActorPrestamo: LIB1585|U185|1764291322275
+  ? Tiempo de respuesta: 1ms
+
+[19:55:22.491] GC SEDE SEDE1 recibió: RENOVACION|LIB1586|U186
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1586. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1586|U186|2025-11-27T19:55:22.491676|2025-12-04T19:55:22.491676
+
+[19:55:22.706] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1587|U187
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1587
+  ? Publicado en tópico 'devolucion': LIB1587|U187|19:55:22.707
+
+[19:55:22.924] GC SEDE SEDE1 recibió: PRESTAMO|LIB1588|U188
+  ? Tarea enviada a ActorPrestamo: LIB1588|U188|1764291322924
+  ? Tiempo de respuesta: 0ms
+
+[19:55:23.129] GC SEDE SEDE1 recibió: PRESTAMO|LIB1589|U189
+  ? Tarea enviada a ActorPrestamo: LIB1589|U189|1764291323129
+  ? Tiempo de respuesta: 0ms
+
+[19:55:23.345] GC SEDE SEDE1 recibió: RENOVACION|LIB1590|U190
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1590. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1590|U190|2025-11-27T19:55:23.345244400|2025-12-04T19:55:23.345244400
+
+[19:55:23.549] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1591|U191
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1591
+  ? Publicado en tópico 'devolucion': LIB1591|U191|19:55:23.549
+
+[19:55:23.765] GC SEDE SEDE1 recibió: PRESTAMO|LIB1592|U192
+  ? Tarea enviada a ActorPrestamo: LIB1592|U192|1764291323765
+  ? Tiempo de respuesta: 1ms
+
+[19:55:23.981] GC SEDE SEDE1 recibió: PRESTAMO|LIB1593|U193
+  ? Tarea enviada a ActorPrestamo: LIB1593|U193|1764291323981
+  ? Tiempo de respuesta: 0ms
+
+[19:55:24.197] GC SEDE SEDE1 recibió: RENOVACION|LIB1594|U194
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1594. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1594|U194|2025-11-27T19:55:24.197056100|2025-12-04T19:55:24.197056100
+
+[19:55:24.407] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1595|U195
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1595
+  ? Publicado en tópico 'devolucion': LIB1595|U195|19:55:24.407
+
+[19:55:24.610] GC SEDE SEDE1 recibió: PRESTAMO|LIB1596|U196
+  ? Tarea enviada a ActorPrestamo: LIB1596|U196|1764291324610
+  ? Tiempo de respuesta: 1ms
+
+[19:55:24.827] GC SEDE SEDE1 recibió: PRESTAMO|LIB1597|U197
+  ? Tarea enviada a ActorPrestamo: LIB1597|U197|1764291324827
+  ? Tiempo de respuesta: 0ms
+
+[19:55:25.043] GC SEDE SEDE1 recibió: RENOVACION|LIB1598|U198
+  ? Respuesta enviada al PS: OK|Renovación aceptada para LIB1598. Nueva fecha: 04/12/2025
+  ? Publicado en tópico 'renovacion': LIB1598|U198|2025-11-27T19:55:25.043968300|2025-12-04T19:55:25.043968300
+
+[19:55:25.261] GC SEDE SEDE1 recibió: DEVOLUCION|LIB1599|U199
+  ? Respuesta enviada al PS: OK|Devolución aceptada para LIB1599
+  ? Publicado en tópico 'devolucion': LIB1599|U199|19:55:25.261

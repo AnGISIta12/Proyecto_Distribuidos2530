@@ -1,11 +1,218 @@
-ActorPrestamo escuchando tareas...
-ActorPrestamo recibió: B0001|U100|1764278099050
-ActorPrestamo recibió: B0002|U101|1764278099321
-ActorPrestamo recibió: B0005|U104|1764278099977
-ActorPrestamo recibió: B0006|U105|1764278100195
-ActorPrestamo recibió: B0009|U108|1764278100850
-ActorPrestamo recibió: B0010|U109|1764278101068
-ActorPrestamo recibió: B0003|U112|1764278101735
-ActorPrestamo recibió: B0004|U113|1764278101950
-ActorPrestamo recibió: B0007|U116|1764278102602
-ActorPrestamo recibió: B0008|U117|1764278102820
+==============================================
+ActorPrestamo iniciado
+Escuchando tareas en puerto 5557
+SEDE PRIMARIA: tcp://localhost:5558
+SEDE RESPALDO: tcp://localhost:6558
+==============================================
+
+
+[TAREA] ActorPrestamo recibió: LIB1500|U100|1764291304070
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1500
+
+[TAREA] ActorPrestamo recibió: LIB1501|U101|1764291304339
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1501
+
+[TAREA] ActorPrestamo recibió: LIB1504|U104|1764291304992
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1504
+
+[TAREA] ActorPrestamo recibió: LIB1505|U105|1764291305209
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1505
+
+[TAREA] ActorPrestamo recibió: LIB1508|U108|1764291305861
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1508
+
+[TAREA] ActorPrestamo recibió: LIB1509|U109|1764291306065
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1509
+
+[TAREA] ActorPrestamo recibió: LIB1512|U112|1764291306719
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1512
+
+[TAREA] ActorPrestamo recibió: LIB1513|U113|1764291306935
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1513
+
+[TAREA] ActorPrestamo recibió: LIB1516|U116|1764291307570
+  [!] Timeout en Consulta de LIB1516 (intento 1/3)
+  [X] Error en Consulta de LIB1516 (intento 2/3): Errno 156384763
+  [X] Error en Consulta de LIB1516 (intento 3/3): Errno 156384763
+  [X] FALLO: Consulta de LIB1516 falló después de 3 intentos
+[ERROR] No se pudo consultar disponibilidad (1/2 fallos)
+
+[TAREA] ActorPrestamo recibió: LIB1517|U117|1764291307788
+  [X] Error en Consulta de LIB1517 (intento 1/3): Errno 156384763
+  [X] Error en Consulta de LIB1517 (intento 2/3): Errno 156384763
+  [X] Error en Consulta de LIB1517 (intento 3/3): Errno 156384763
+  [X] FALLO: Consulta de LIB1517 falló después de 3 intentos
+[ERROR] No se pudo consultar disponibilidad (2/2 fallos)
+
+[FAILOVER] Detectados 2 fallos en SEDE1
+[FAILOVER] Intentando cambiar a SEDE2...
+[FAILOVER] ? Conectado exitosamente a SEDE2
+[FAILOVER] Operaciones continúan transparentemente...
+
+[TAREA] ActorPrestamo recibió: LIB1520|U120|1764291308425
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1520
+
+[TAREA] ActorPrestamo recibió: LIB1521|U121|1764291308640
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1521
+
+[TAREA] ActorPrestamo recibió: LIB1524|U124|1764291309291
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1524
+
+[TAREA] ActorPrestamo recibió: LIB1525|U125|1764291309494
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1525
+
+[TAREA] ActorPrestamo recibió: LIB1528|U128|1764291310131
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1528
+
+[TAREA] ActorPrestamo recibió: LIB1529|U129|1764291310348
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1529
+
+[TAREA] ActorPrestamo recibió: LIB1532|U132|1764291310986
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1532
+
+[TAREA] ActorPrestamo recibió: LIB1533|U133|1764291311206
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1533
+
+[TAREA] ActorPrestamo recibió: LIB1536|U136|1764291311821
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1536
+
+[TAREA] ActorPrestamo recibió: LIB1537|U137|1764291312035
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1537
+
+[TAREA] ActorPrestamo recibió: LIB1540|U140|1764291312675
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1540
+
+[TAREA] ActorPrestamo recibió: LIB1541|U141|1764291312880
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1541
+
+[TAREA] ActorPrestamo recibió: LIB1544|U144|1764291313527
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1544
+
+[TAREA] ActorPrestamo recibió: LIB1545|U145|1764291313743
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1545
+
+[TAREA] ActorPrestamo recibió: LIB1548|U148|1764291314381
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1548
+
+[TAREA] ActorPrestamo recibió: LIB1549|U149|1764291314599
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1549
+
+[TAREA] ActorPrestamo recibió: LIB1552|U152|1764291315237
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1552
+
+[TAREA] ActorPrestamo recibió: LIB1553|U153|1764291315454
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1553
+
+[TAREA] ActorPrestamo recibió: LIB1556|U156|1764291316076
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1556
+
+[TAREA] ActorPrestamo recibió: LIB1557|U157|1764291316291
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1557
+
+[TAREA] ActorPrestamo recibió: LIB1560|U160|1764291316903
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1560
+
+[TAREA] ActorPrestamo recibió: LIB1561|U161|1764291317119
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1561
+
+[TAREA] ActorPrestamo recibió: LIB1564|U164|1764291317744
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1564
+
+[TAREA] ActorPrestamo recibió: LIB1565|U165|1764291317961
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1565
+
+[TAREA] ActorPrestamo recibió: LIB1568|U168|1764291318609
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1568
+
+[TAREA] ActorPrestamo recibió: LIB1569|U169|1764291318825
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1569
+
+[TAREA] ActorPrestamo recibió: LIB1572|U172|1764291319477
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1572
+
+[TAREA] ActorPrestamo recibió: LIB1573|U173|1764291319681
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1573
+
+[TAREA] ActorPrestamo recibió: LIB1576|U176|1764291320319
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1576
+
+[TAREA] ActorPrestamo recibió: LIB1577|U177|1764291320536
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1577
+
+[TAREA] ActorPrestamo recibió: LIB1580|U180|1764291321186
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1580
+
+[TAREA] ActorPrestamo recibió: LIB1581|U181|1764291321403
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1581
+
+[TAREA] ActorPrestamo recibió: LIB1584|U184|1764291322059
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1584
+
+[TAREA] ActorPrestamo recibió: LIB1585|U185|1764291322275
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1585
+
+[TAREA] ActorPrestamo recibió: LIB1588|U188|1764291322924
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1588
+
+[TAREA] ActorPrestamo recibió: LIB1589|U189|1764291323129
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1589
+
+[TAREA] ActorPrestamo recibió: LIB1592|U192|1764291323765
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1592
+
+[TAREA] ActorPrestamo recibió: LIB1593|U193|1764291323981
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1593
+
+[TAREA] ActorPrestamo recibió: LIB1596|U196|1764291324610
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1596
+
+[TAREA] ActorPrestamo recibió: LIB1597|U197|1764291324827
+  [BD] DISPONIBLES_-1
+  [!] Préstamo denegado - No hay copias disponibles de LIB1597
