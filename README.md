@@ -40,6 +40,7 @@ CLIENTES (Máquina 3)
 
 ### Puertos Utilizados
 
+#### SEDE1 (Principal)
 | Componente | Puerto | Protocolo | Descripción |
 |------------|--------|-----------|-------------|
 | Gestor Carga → PS | 5555 | REP | Recibe solicitudes |
@@ -48,6 +49,12 @@ CLIENTES (Máquina 3)
 | Gestor Almacenamiento | 5558 | REP | Operaciones de BD |
 | Health Check | 5559 | REP | Verificación de estado |
 | Replicación | 5560 | PUB | Sincronización de réplicas |
+
+#### SEDE2 (Respaldo - Failover)
+| Componente | Puerto | Protocolo | Descripción |
+|------------|--------|-----------|-------------|
+| Gestor Almacenamiento | 6558 | REP | Operaciones de BD (respaldo) |
+| Health Check | 6559 | REP | Verificación de estado (respaldo) |
 
 ---
 
@@ -70,9 +77,12 @@ cd proyecto_distribuidos2530
 # Compilar proyecto
 mvn clean package
 
-# Verificar compilación
+# Ejecutar prueba local (Windows)
 test_local.bat
-(ESTE EJECUTA LAS 6 TERMINALES NECESARIAS AUTOMATICAMENTE)
+# (ESTE EJECUTA LAS 7 TERMINALES NECESARIAS AUTOMATICAMENTE)
+# - Incluye SEDE2 para pruebas de failover
+# - 100 peticiones de prueba
+# - Base de datos con 5000 libros
 ```
 
 ### Configuración de Red
@@ -145,6 +155,56 @@ java -cp target/proyecto_distribuidos2530-1.0-SNAPSHOT.jar \
   com.example.proyecto_distribuidos2530.solicitante.ProcesoSolicitante \
   PS2 SEDE2 192.168.1.101 peticiones_ps2.txt
 ```
+
+---
+
+## 🛡️ Tolerancia a Fallas y Failover
+
+### Mecanismos Implementados
+
+1. **Reintentos Automáticos**
+   - 3 intentos por operación
+   - 1 segundo de espera entre intentos
+   - Timeout de 5 segundos por intento
+
+2. **Health Checks**
+   - Verificación periódica de estado (PING/PONG)
+   - Puerto 5559 para SEDE1
+   - Puerto 6559 para SEDE2
+
+3. **Failover Automático a SEDE2**
+   - Después de 2 fallos consecutivos
+   - Cambio transparente sin intervención del usuario
+   - Los 3 actores cambian automáticamente:
+     - ActorPrestamo: `[FAILOVER]`
+     - ActorDevolucion: `[FAILOVER-DEV]`
+     - ActorRenovacion: `[FAILOVER-REN]`
+   - Reconexión automática a SEDE1 cuando se recupera
+
+### Prueba de Failover
+
+```bash
+# 1. Ejecutar test_local.bat (inicia SEDE2 automáticamente)
+test_local.bat
+
+# 2. Esperar unos segundos (10-20 peticiones procesadas)
+
+# 3. Cerrar la ventana "GestorAlmacenamiento" (SEDE1)
+
+# 4. Observar en las ventanas de actores:
+#    - Mensajes [FAILOVER-*] indicando cambio a SEDE2
+#    - Operaciones continúan sin interrupción
+#    - SEDE2 procesa las ~80 peticiones restantes
+```
+
+### Archivos de Logs
+
+- `logs/almacenamiento.log` - Logs de SEDE1
+- `logs/sede2.log` - Logs de SEDE2 (respaldo)
+- `logs/devolucion.log` - Actor Devolución
+- `logs/renovacion.log` - Actor Renovación
+- `logs/prestamo.log` - Actor Préstamo
+- `logs/carga.log` - Gestor de Carga
 
 ---
 

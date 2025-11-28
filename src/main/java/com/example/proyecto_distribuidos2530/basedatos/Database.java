@@ -34,10 +34,10 @@ public class Database {
     }
 
     private void inicializarDatosEjemplo() {
-        // 1000 libros, 200 prestados inicialmente
-        for (int i = 1; i <= 1000; i++) {
+        // 5000 libros, 1000 prestados inicialmente (más datos para ver failover)
+        for (int i = 1; i <= 5000; i++) {
             String codigo = "LIB" + i;
-            int disponibles = (i <= 200) ? 0 : (i <= 500) ? 1 : 2;
+            int disponibles = (i <= 1000) ? 0 : (i <= 2500) ? 1 : 2;
             libros.put(codigo, new Libro(codigo, "Libro " + i, disponibles));
         }
         System.out.println("BD inicializada con " + libros.size() + " libros");

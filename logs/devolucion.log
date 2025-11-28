@@ -1,43 +1,190 @@
 ==============================================
 ActorDevolucion SEDE SEDE1 iniciado
 Suscrito al tópico: devolucion
-GC: localhost:5556
-GA: localhost:5558
+SEDE PRIMARIA: localhost:5558
+SEDE RESPALDO: localhost:6558
 ==============================================
 
 
-[16:14:59.778] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
-  Mensaje: B0004|U103|16:14:59.759
-  ? Procesando devolución de B0004 por usuario U103
+[19:55:04.804] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1503|U103|19:55:04.775
+  ? Procesando devolución de LIB1503 por usuario U103
   ? ? Devolución registrada exitosamente
   ? BD respondió: DEVOLUCION_OK
   ? Total procesadas: 1
 
-[16:15:00.633] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
-  Mensaje: B0008|U107|16:15:00.632
-  ? Procesando devolución de B0008 por usuario U107
+[19:55:05.647] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1507|U107|19:55:05.646
+  ? Procesando devolución de LIB1507 por usuario U107
   ? ? Devolución registrada exitosamente
   ? BD respondió: DEVOLUCION_OK
   ? Total procesadas: 2
 
-[16:15:01.517] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
-  Mensaje: B0002|U111|16:15:01.516
-  ? Procesando devolución de B0002 por usuario U111
+[19:55:06.503] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1511|U111|19:55:06.501
+  ? Procesando devolución de LIB1511 por usuario U111
   ? ? Devolución registrada exitosamente
   ? BD respondió: DEVOLUCION_OK
   ? Total procesadas: 3
 
-[16:15:02.398] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
-  Mensaje: B0006|U115|16:15:02.387
-  ? Procesando devolución de B0006 por usuario U115
+[19:55:07.354] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1515|U115|19:55:07.353
+  ? Procesando devolución de LIB1515 por usuario U115
+  [!] Timeout en Devolución de LIB1515 (intento 1/3)
+  [X] Error en Devolución de LIB1515 (intento 2/3): Errno 156384763
+  [X] Error en Devolución de LIB1515 (intento 3/3): Errno 156384763
+  [X] FALLO: Devolución de LIB1515 falló después de 3 intentos
+  ? ? Error de comunicación con GA (1/2 fallos)
+
+[19:55:14.380] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1519|U119|19:55:08.209
+  ? Procesando devolución de LIB1519 por usuario U119
+  [X] Error en Devolución de LIB1519 (intento 1/3): Errno 156384763
+  [X] Error en Devolución de LIB1519 (intento 2/3): Errno 156384763
+  [X] Error en Devolución de LIB1519 (intento 3/3): Errno 156384763
+  [X] FALLO: Devolución de LIB1519 falló después de 3 intentos
+  ? ? Error de comunicación con GA (2/2 fallos)
+
+[FAILOVER-DEV] Detectados 2 fallos en SEDE1
+[FAILOVER-DEV] Cambiando a SEDE2...
+[FAILOVER-DEV] ? Conectado a SEDE2
+
+[19:55:16.428] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1523|U123|19:55:09.074
+  ? Procesando devolución de LIB1523 por usuario U123
   ? ? Devolución registrada exitosamente
   ? BD respondió: DEVOLUCION_OK
   ? Total procesadas: 4
 
-[16:15:03.257] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
-  Mensaje: B0010|U119|16:15:03.255
-  ? Procesando devolución de B0010 por usuario U119
+[19:55:16.444] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1527|U127|19:55:09.929
+  ? Procesando devolución de LIB1527 por usuario U127
   ? ? Devolución registrada exitosamente
   ? BD respondió: DEVOLUCION_OK
   ? Total procesadas: 5
-^C
+
+[19:55:16.486] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1531|U131|19:55:10.771
+  ? Procesando devolución de LIB1531 por usuario U131
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 6
+
+[19:55:16.526] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1535|U135|19:55:11.618
+  ? Procesando devolución de LIB1535 por usuario U135
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 7
+
+[19:55:16.570] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1539|U139|19:55:12.458
+  ? Procesando devolución de LIB1539 por usuario U139
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 8
+
+[19:55:16.596] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1543|U143|19:55:13.313
+  ? Procesando devolución de LIB1543 por usuario U143
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 9
+
+[19:55:16.630] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1547|U147|19:55:14.168
+  ? Procesando devolución de LIB1547 por usuario U147
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 10
+
+[19:55:16.633] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1551|U151|19:55:15.021
+  ? Procesando devolución de LIB1551 por usuario U151
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 11
+
+[19:55:16.639] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1555|U155|19:55:15.871
+  ? Procesando devolución de LIB1555 por usuario U155
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 12
+
+[19:55:16.700] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1559|U159|19:55:16.700
+  ? Procesando devolución de LIB1559 por usuario U159
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 13
+
+[19:55:17.542] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1563|U163|19:55:17.541
+  ? Procesando devolución de LIB1563 por usuario U163
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 14
+
+[19:55:18.396] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1567|U167|19:55:18.395
+  ? Procesando devolución de LIB1567 por usuario U167
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 15
+
+[19:55:19.260] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1571|U171|19:55:19.259
+  ? Procesando devolución de LIB1571 por usuario U171
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 16
+
+[19:55:20.103] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1575|U175|19:55:20.102
+  ? Procesando devolución de LIB1575 por usuario U175
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 17
+
+[19:55:20.970] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1579|U179|19:55:20.970
+  ? Procesando devolución de LIB1579 por usuario U179
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 18
+
+[19:55:21.843] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1583|U183|19:55:21.841
+  ? Procesando devolución de LIB1583 por usuario U183
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 19
+
+[19:55:22.708] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1587|U187|19:55:22.707
+  ? Procesando devolución de LIB1587 por usuario U187
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 20
+
+[19:55:23.550] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1591|U191|19:55:23.549
+  ? Procesando devolución de LIB1591 por usuario U191
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 21
+
+[19:55:24.408] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1595|U195|19:55:24.407
+  ? Procesando devolución de LIB1595 por usuario U195
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 22
+
+[19:55:25.262] ActorDevolucion SEDE SEDE1 recibió del tópico 'devolucion':
+  Mensaje: LIB1599|U199|19:55:25.261
+  ? Procesando devolución de LIB1599 por usuario U199
+  ? ? Devolución registrada exitosamente
+  ? BD respondió: DEVOLUCION_OK
+  ? Total procesadas: 23

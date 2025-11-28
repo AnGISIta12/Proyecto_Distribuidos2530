@@ -1,26 +1,15 @@
-BD inicializada con 1000 libros
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-BD inicializada con 1000 libros
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
+BD cargada desde archivo: bd_primaria_SEDE1.dat
+BD cargada desde archivo: bd_secundaria_SEDE1.dat
+==============================================
 GestorAlmcto SEDE1 listo (PRIMARIO)
-Libro B0003 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0003 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0007 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0007 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0001 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0001 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0005 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0005 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0009 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
-Libro B0009 renovado en sede SEDE1
-Error guardando BD: com.example.proyecto_distribuidos2530.modelo.Libro
+Puerto operaciones: 5558
+Puerto health check: 5559
+==============================================
+
+Libro LIB1502 renovado en sede SEDE1
+Libro LIB1502 renovado en sede SEDE1
+Libro LIB1506 renovado en sede SEDE1
+Libro LIB1506 renovado en sede SEDE1
+Libro LIB1510 renovado en sede SEDE1
+Libro LIB1510 renovado en sede SEDE1
 ^C

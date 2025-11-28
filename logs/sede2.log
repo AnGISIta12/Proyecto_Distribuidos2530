@@ -1,0 +1,370 @@
+BD cargada desde archivo: bd_primaria_SEDE2.dat
+BD cargada desde archivo: bd_secundaria_SEDE2.dat
+==============================================
+GestorAlmcto SEDE2 listo (RESPALDO)
+Puerto operaciones: 6558
+Puerto health check: 6559
+==============================================
+[SEDE2] Esperando conexiones de failover...
+[SEDE2] Listo para procesar operaciones
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1522
+Libro LIB1522 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1522
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1522 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: RENOVACION|LIB1526
+Libro LIB1526 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1526
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1526 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: RENOVACION|LIB1530
+Libro LIB1530 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1530
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1530 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: RENOVACION|LIB1534
+Libro LIB1534 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1534
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1534 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: RENOVACION|LIB1538
+Libro LIB1538 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1538
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1538 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1523
+[SEDE2] ? Devolución exitosa: LIB1523
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1542
+Libro LIB1542 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1542
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1542 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1527
+[SEDE2] ? Devolución exitosa: LIB1527
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1546
+Libro LIB1546 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1546
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1546 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1531
+[SEDE2] ? Devolución exitosa: LIB1531
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1550
+Libro LIB1550 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1550
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1550 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1535
+[SEDE2] ? Devolución exitosa: LIB1535
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1554
+Libro LIB1554 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1554
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1539
+[SEDE2] ? Devolución exitosa: LIB1539
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1558
+Libro LIB1558 renovado en sede SEDE2
+Libro LIB1554 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1558
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1543
+[SEDE2] ? Devolución exitosa: LIB1543
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1547
+[SEDE2] ? Devolución exitosa: LIB1547
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+Libro LIB1558 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1551
+[SEDE2] ? Devolución exitosa: LIB1551
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1555
+[SEDE2] ? Devolución exitosa: LIB1555
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1520
+[SEDE2] Consulta: LIB1520 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1521
+[SEDE2] Consulta: LIB1521 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1524
+[SEDE2] Consulta: LIB1524 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1525
+[SEDE2] Consulta: LIB1525 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1528
+[SEDE2] Consulta: LIB1528 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1529
+[SEDE2] Consulta: LIB1529 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1532
+[SEDE2] Consulta: LIB1532 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1533
+[SEDE2] Consulta: LIB1533 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1536
+[SEDE2] Consulta: LIB1536 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1537
+[SEDE2] Consulta: LIB1537 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1540
+[SEDE2] Consulta: LIB1540 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1541
+[SEDE2] Consulta: LIB1541 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1544
+[SEDE2] Consulta: LIB1544 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1545
+[SEDE2] Consulta: LIB1545 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1559
+[SEDE2] ? Devolución exitosa: LIB1559
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1548
+[SEDE2] Consulta: LIB1548 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1549
+[SEDE2] Consulta: LIB1549 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1552
+[SEDE2] Consulta: LIB1552 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1553
+[SEDE2] Consulta: LIB1553 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1556
+[SEDE2] Consulta: LIB1556 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1557
+[SEDE2] Consulta: LIB1557 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1560
+[SEDE2] Consulta: LIB1560 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1561
+[SEDE2] Consulta: LIB1561 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1562
+Libro LIB1562 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1562
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1562 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1563
+[SEDE2] ? Devolución exitosa: LIB1563
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1564
+[SEDE2] Consulta: LIB1564 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1565
+[SEDE2] Consulta: LIB1565 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1566
+Libro LIB1566 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1566
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1566 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1567
+[SEDE2] ? Devolución exitosa: LIB1567
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1568
+[SEDE2] Consulta: LIB1568 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1569
+[SEDE2] Consulta: LIB1569 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1570
+Libro LIB1570 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1570
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1570 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1571
+[SEDE2] ? Devolución exitosa: LIB1571
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1572
+[SEDE2] Consulta: LIB1572 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1573
+[SEDE2] Consulta: LIB1573 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1574
+Libro LIB1574 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1574
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1574 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1575
+[SEDE2] ? Devolución exitosa: LIB1575
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1576
+[SEDE2] Consulta: LIB1576 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1577
+[SEDE2] Consulta: LIB1577 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1578
+Libro LIB1578 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1578
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1578 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1579
+[SEDE2] ? Devolución exitosa: LIB1579
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1580
+[SEDE2] Consulta: LIB1580 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1581
+[SEDE2] Consulta: LIB1581 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1582
+Libro LIB1582 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1582
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1582 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1583
+[SEDE2] ? Devolución exitosa: LIB1583
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1584
+[SEDE2] Consulta: LIB1584 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1585
+[SEDE2] Consulta: LIB1585 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1586
+Libro LIB1586 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1586
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1586 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1587
+[SEDE2] ? Devolución exitosa: LIB1587
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1588
+[SEDE2] Consulta: LIB1588 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1589
+[SEDE2] Consulta: LIB1589 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1590
+Libro LIB1590 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1590
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1590 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1591
+[SEDE2] ? Devolución exitosa: LIB1591
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1592
+[SEDE2] Consulta: LIB1592 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1593
+[SEDE2] Consulta: LIB1593 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1594
+Libro LIB1594 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1594
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1594 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1595
+[SEDE2] ? Devolución exitosa: LIB1595
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1596
+[SEDE2] Consulta: LIB1596 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: CONSULTA|LIB1597
+[SEDE2] Consulta: LIB1597 -> -1 copias disponibles
+[SEDE2] -> Respuesta enviada: DISPONIBLES_-1
+
+[SEDE2] <- Petición recibida: RENOVACION|LIB1598
+Libro LIB1598 renovado en sede SEDE2
+[SEDE2] ? Renovación exitosa: LIB1598
+[SEDE2] -> Respuesta enviada: RENOVACION_OK
+
+Libro LIB1598 renovado en sede SEDE2
+[SEDE2] <- Petición recibida: DEVOLUCION|LIB1599
+[SEDE2] ? Devolución exitosa: LIB1599
+[SEDE2] -> Respuesta enviada: DEVOLUCION_OK
+
